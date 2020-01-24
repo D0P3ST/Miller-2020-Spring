@@ -10,16 +10,16 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main2)
 
         Concatenate.setOnClickListener {
             try {
                 val num1: Double = editText2.text.toString().toDouble()
                 val num2: Double = editText.text.toString().toDouble()
                 val sum: Double = num1 / num2
-                textView2.text = sum.toString()
+                concatResult.text = "Your CS per minute: $sum"
             } catch(e: NumberFormatException) {
-                textView2.text = "Please input numbers"
+                concatResult.text = "Please input numbers"
             }
 
         }
@@ -40,7 +40,9 @@ class MainActivity : AppCompatActivity() {
                 val master: Double = sum-5.99
                 val grandmaster: Double =  sum-6.05
                 val challenger: Double = sum-7.01
-                val result: String = "Iron =$iron \n" +
+                val result: String = "Breakdown of CS averages by rank, \n " +
+                        "positive numbers above the CS average for a solo lane in that role: \n\n" +
+                        "Iron =$iron \n" +
                         "Bronze =$bronze \n" +
                         "Silver = $silver \n" +
                         "Gold = $gold \n" +
@@ -49,9 +51,9 @@ class MainActivity : AppCompatActivity() {
                         "Masters = $master \n" +
                         "Grandmasters = $grandmaster \n" +
                         "Challenger = $challenger \n"
-                textView.text = result
+                addResult.text = result
             } catch(e: NumberFormatException) {
-                textView.text = "Please input numbers"
+                addResult.text = "Please input numbers"
             }
         }
 
