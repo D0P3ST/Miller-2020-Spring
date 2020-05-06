@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "5eb214d1b6e42606e5ed24d0",
+    "index": 0,
+    "guid": "80754266-3f8b-4be2-9d56-d3af9ddb9c6e",
+    "isActive": true,
+    "balance": "$1,295.21",
+    "age": 30,
+    "eyeColor": "brown",
+    "name": {
+      "first": "Copeland",
+      "last": "Heath"
+    },
+    "company": "FLUM",
+    "email": "copeland.heath@flum.co.uk",
+    "phone": "+1 (977) 579-3377",
+    "address": "600 Cropsey Avenue, Farmers, Delaware, 7766",
+    "registered": "Thursday, July 20, 2017 5:25 PM",
+    "latitude": "-62.585156",
+    "longitude": "-178.715264",
+    "tags": [
+      "Nike",
+      "Off-White",
+      "VLONE"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Britt Patel"
+      },
+      {
+        "id": 1,
+        "name": "Minnie Trujillo"
+      },
+      {
+        "id": 2,
+        "name": "Taylor Mcclain"
+      }
+    ],
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5eb214d1999612915a4aee99",
+    "index": 1,
+    "guid": "954c7485-d106-4d10-a25a-1bf004555c57",
+    "isActive": false,
+    "balance": "$1,696.78",
+    "age": 36,
+    "eyeColor": "green",
+    "name": {
+      "first": "Blanchard",
+      "last": "Marsh"
+    },
+    "company": "ACIUM",
+    "email": "blanchard.marsh@acium.us",
+    "phone": "+1 (888) 497-3746",
+    "address": "520 Senator Street, Sedley, Arkansas, 4672",
+    "registered": "Friday, July 1, 2016 11:29 AM",
+    "latitude": "-26.378445",
+    "longitude": "39.089614",
+    "tags": [
+      "fear of god",
+      "BAPE",
+      "BAPE"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Cortez Moody"
+      },
+      {
+        "id": 1,
+        "name": "Greene Terry"
+      },
+      {
+        "id": 2,
+        "name": "Blackburn Aguirre"
+      }
+    ],
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5eb214d10dd4bd35df8714e6",
+    "index": 2,
+    "guid": "2ab61c91-62f3-49a4-b330-26dd70221f09",
+    "isActive": false,
+    "balance": "$1,014.61",
+    "age": 28,
+    "eyeColor": "green",
+    "name": {
+      "first": "Moss",
+      "last": "Harmon"
+    },
+    "company": "BLUPLANET",
+    "email": "moss.harmon@bluplanet.biz",
+    "phone": "+1 (881) 429-3044",
+    "address": "111 Utica Avenue, Marbury, Guam, 7407",
+    "registered": "Friday, March 7, 2014 3:20 PM",
+    "latitude": "18.933406",
+    "longitude": "7.930715",
+    "tags": [
+      "VLONE",
+      "Anti Social Social Club",
+      "BAPE"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Pat Estes"
+      },
+      {
+        "id": 1,
+        "name": "Vargas Thornton"
+      },
+      {
+        "id": 2,
+        "name": "Neva Harper"
+      }
+    ],
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "5eb214d14338b75e335c3cb7",
+    "index": 3,
+    "guid": "3c61dff8-60d6-4a80-93e6-cc353929eb84",
+    "isActive": false,
+    "balance": "$1,467.84",
+    "age": 37,
+    "eyeColor": "green",
+    "name": {
+      "first": "Ruth",
+      "last": "Swanson"
+    },
+    "company": "BILLMED",
+    "email": "ruth.swanson@billmed.ca",
+    "phone": "+1 (955) 489-2473",
+    "address": "465 Leonora Court, Idledale, North Dakota, 7927",
+    "registered": "Tuesday, February 10, 2015 4:56 PM",
+    "latitude": "85.834541",
+    "longitude": "104.400115",
+    "tags": [
+      "BAPE",
+      "TRUE DAMAGE",
+      "Adidas"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Gladys Mooney"
+      },
+      {
+        "id": 1,
+        "name": "Debra Mercer"
+      },
+      {
+        "id": 2,
+        "name": "Cochran Flores"
+      }
+    ],
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5eb214d13a023b9f4b9d52f0",
+    "index": 4,
+    "guid": "0496dff1-fdc9-40f1-bbd6-c638c15fd4ca",
+    "isActive": true,
+    "balance": "$2,236.86",
+    "age": 37,
+    "eyeColor": "green",
+    "name": {
+      "first": "Rogers",
+      "last": "Bird"
+    },
+    "company": "COSMETEX",
+    "email": "rogers.bird@cosmetex.io",
+    "phone": "+1 (962) 535-3429",
+    "address": "249 Clara Street, Coloma, Arizona, 5421",
+    "registered": "Wednesday, April 27, 2016 8:08 AM",
+    "latitude": "-29.385722",
+    "longitude": "118.88129",
+    "tags": [
+      "Anti Social Social Club",
+      "Off-White",
+      "TRUE DAMAGE"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Tonya Faulkner"
+      },
+      {
+        "id": 1,
+        "name": "Mayo Mcbride"
+      },
+      {
+        "id": 2,
+        "name": "Angel Melton"
+      }
+    ],
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5eb214d193970449ea3ba543",
+    "index": 5,
+    "guid": "d4481cea-1c01-4b75-91de-5a2e39c1b7dc",
+    "isActive": false,
+    "balance": "$2,928.68",
+    "age": 27,
+    "eyeColor": "blue",
+    "name": {
+      "first": "Albert",
+      "last": "Vinson"
+    },
+    "company": "SUPPORTAL",
+    "email": "albert.vinson@supportal.info",
+    "phone": "+1 (888) 593-2194",
+    "address": "447 Borinquen Pl, Hayden, Oregon, 5908",
+    "registered": "Monday, December 22, 2014 5:32 PM",
+    "latitude": "-49.545001",
+    "longitude": "118.133317",
+    "tags": [
+      "TRUE DAMAGE",
+      "respectwoman",
+      "Adidas"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lorena Rush"
+      },
+      {
+        "id": 1,
+        "name": "Cathleen Nixon"
+      },
+      {
+        "id": 2,
+        "name": "Sherman Kinney"
+      }
+    ],
+    "favoriteFruit": "apple"
+  }
+]
