@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:3222789564146104805",
-      "lastPropertyId": "8:9072073564699413754",
+      "lastPropertyId": "9:8366065611836257793",
       "name": "Rival",
       "properties": [
         {
@@ -31,26 +31,16 @@
           "flags": 4
         },
         {
-          "id": "5:5881602503696053470",
-          "name": "weight",
-          "type": 5,
-          "flags": 4
-        },
-        {
-          "id": "6:4299939392926396653",
-          "name": "height",
-          "type": 9
-        },
-        {
           "id": "7:4234287340061966904",
           "name": "networth",
           "type": 5,
           "flags": 4
         },
         {
-          "id": "8:9072073564699413754",
-          "name": "rivalyStart",
-          "type": 10
+          "id": "9:8366065611836257793",
+          "name": "powerrating",
+          "type": 5,
+          "flags": 4
         }
       ],
       "relations": []
@@ -64,7 +54,11 @@
   "modelVersionParserMinimum": 5,
   "retiredEntityUids": [],
   "retiredIndexUids": [],
-  "retiredPropertyUids": [],
+  "retiredPropertyUids": [
+    5881602503696053470,
+    4299939392926396653,
+    9072073564699413754
+  ],
   "retiredRelationUids": [],
   "version": 1
 }

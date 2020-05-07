@@ -4,15 +4,11 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.widget.Button
 import android.widget.EditText
 import android.view.MenuItem
-import androidx.appcompat.app.AppCompatDialogFragment
-import com.example.classapp.Fragments.ChampFragment
-import com.example.classapp.Fragments.UserFragment
 
 
 import kotlinx.android.synthetic.main.activity_main.*
@@ -24,8 +20,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-
-        ObjectBox.init(this);
 
 //        fab.setOnClickListener { view ->
 //            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)

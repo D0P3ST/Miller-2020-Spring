@@ -1,20 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChampFragment">
 
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="150dp"
-        android:layout_height="86dp"
-        android:layout_margin="@dimen/text_margin"
-        android:textAppearance="?attr/textAppearanceListItem" />
+    <RatingBar
+        android:id="@+id/PowerRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="80dp" />
 
-    <TextView
-        android:id="@+id/balance"
-        android:layout_width="149dp"
-        android:layout_height="88dp"
-        android:layout_margin="@dimen/text_margin"
-        android:textAppearance="?attr/textAppearanceListItem" />
-</LinearLayout>
+    <EditText
+        android:id="@+id/RivalName"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/RivalDesc"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:hint="@string/desc"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/BankAcc"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:hint="@string/bank"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="350dp"
+        android:text="Enter"
+        tools:text="enter" />
+</FrameLayout>

@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:3222789564146104805",
-      "lastPropertyId": "7:4234287340061966904",
+      "lastPropertyId": "8:9072073564699413754",
       "name": "Rival",
       "properties": [
         {
@@ -46,6 +46,11 @@
           "name": "networth",
           "type": 5,
           "flags": 4
+        },
+        {
+          "id": "8:9072073564699413754",
+          "name": "rivalyStart",
+          "type": 10
         }
       ],
       "relations": []
